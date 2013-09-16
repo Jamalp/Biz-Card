@@ -6,9 +6,8 @@ gem 'twilio-ruby'
 gem 'dotenv-rails'
 gem 'sendgrid'
 
-
+gem 'pg'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -37,6 +36,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'pry-rails'           # Causes rails console to open pry
                             # https://github.com/rweng/pry-rails
   gem 'pry-debugger'        # Adds step, next, finish, and continue commands and breakpoints
