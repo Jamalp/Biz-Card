@@ -15,7 +15,7 @@ class CardController < ApplicationController
       @client.account.sms.messages.create(
         :from => '+13024828869',
         :to => phone,
-        :body => 'Hey there!'
+        :body => 'Hey! I\'m Jamal, a grad of General Assembly\'s Web Dev course.  I\'d love to talk about code, projects & opportunities. You can email me @ Jamalkpowell@gmail.com'
       )
 
       redirect_to '/'
