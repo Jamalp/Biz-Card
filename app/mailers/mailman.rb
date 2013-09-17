@@ -10,7 +10,10 @@ class Mailman < ActionMailer::Base
 
     mail( to: email,
           subject: "Aloha! It's Jamal.",
-          body: "Hey, I'm Jamal.  I'm a graduate of General Assembly's Web Developement Immersive course.  I'd love to talk about code, projects and opportunites.  A portfolio of my work at GA is hosted on http://jamalp.github.io/Portoflio. Great meeting you tonight! "
+          body: "Hey, I'm Jamal.  I'm a graduate of General Assembly's Web Developement Immersive course.  I'd love to talk about code, projects and opportunites.  A portfolio of my work at GA is hosted on http://jamalp.github.io/Portoflio. Great meeting you tonight!
+
+            Cheers,
+            Jamal"
           )
   end
 
