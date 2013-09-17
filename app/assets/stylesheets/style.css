@@ -7,7 +7,18 @@ body {
   margin-right: 24em;
 }
 
+.email {
+  margin-right: 24em;
+}
+
+
 #phonebox {
+  margin-left: 42em;
+  margin-top: 1em;
+  border-radius: 2em;
+}
+
+#emailbox {
   margin-left: 42em;
   margin-top: 1em;
   border-radius: 2em;

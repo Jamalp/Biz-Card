@@ -3,6 +3,12 @@ class CardController < ApplicationController
   end
 
   def email
+    @email = params[:email]
+    if params[:email]
+      Mailman.send_email(@email).deliver
+    end
+
+    redirect_to '/'
   end
 
   def sms

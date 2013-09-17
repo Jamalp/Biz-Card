@@ -3,13 +3,15 @@
   <p>Type in your phone number and I'll text you my info. No spam :)</p>
 </div>
 
-<!-- <form action='/card/email' method='get'>
-  <input type="string" name="email" placeholder='Email'>
+<div class='email'></div>
+<form action='/card/email' method='get'>
+  <input id='emailbox' type="string" name="email" placeholder='Email'>
   <button class="btn btn-medium btn-primary">Go!</button>
-</form> -->
+</form>
+
 <div class='phone'>
   <form action='/card/sms' method='get'>
-    <input id='phonebox' type="string" name="phone" placeholder='Phone Number'>
+    <input id='phonebox' type="string" name="phone" placeholder='Digits'>
     <button class="btn btn-medium btn-primary">Go!</button>
   </form>
 </div>
