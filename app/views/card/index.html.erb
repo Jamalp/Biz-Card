@@ -1,12 +1,16 @@
-<h2>Looks like I've forgotton something..</h2>
-<p>Type in your email or phone number and I'll send you my info.</p>
+<div class='text'>
+  <h2>Looks like I've forgotton something..</h2>
+  <p>Type in your phone number and I'll text you my info. No spam :)</p>
+</div>
 
-<form action='/card/email' method='get'>
+<!-- <form action='/card/email' method='get'>
   <input type="string" name="email" placeholder='Email'>
   <button class="btn btn-medium btn-primary">Go!</button>
-</form>
+</form> -->
+<div class='phone'>
+  <form action='/card/sms' method='get'>
+    <input id='phonebox' type="string" name="phone" placeholder='Phone Number'>
+    <button class="btn btn-medium btn-primary">Go!</button>
+  </form>
+</div>
 
-<form action='/card/sms' method='get'>
-  <input type="string" name="phone" placeholder='Phone Number'>
-  <button class="btn btn-medium btn-primary">Go!</button>
-</form>

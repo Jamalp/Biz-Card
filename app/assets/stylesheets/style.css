@@ -1,0 +1,27 @@
+.phone {
+  margin-right: 24em;
+}
+
+#phonebox {
+  margin-left: 42em;
+  margin-top: 1em;
+  border-radius: 2em;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 16em;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 37em;
+}
+
+.text {
+  margin-top: 16em;
+}
+
+.btn-primary {
+  border-radius: 2em;
+}
