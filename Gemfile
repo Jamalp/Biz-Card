@@ -5,7 +5,8 @@ gem 'rails', '4.0.0'
 gem 'twilio-ruby'
 gem 'dotenv-rails'
 gem 'sendgrid'
-
+gem 'capistrano'
+gem 'capistrano-ext'
 gem 'pg'
 # Use sqlite3 as the database for Active Record
 
