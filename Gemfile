@@ -8,6 +8,7 @@ gem 'sendgrid'
 gem 'capistrano'
 gem 'capistrano-ext'
 gem 'pg'
+gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
