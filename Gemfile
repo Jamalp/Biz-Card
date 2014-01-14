@@ -9,6 +9,7 @@ gem 'capistrano'
 gem 'capistrano-ext'
 gem 'pg'
 gem 'rails_12factor', group: :production
+gem 'protected_attributes'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
